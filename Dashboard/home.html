@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BabySafe | Gestão Inteligente para Espaços Kids</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="topo">
+
+    <!-- HEADER (Herda o teu estilo original) -->
+    <header id="header">
+        <a href="#" class="logo">
+
+            BabySafe
+        </a>
+        <nav class="nav-links">
+            <a href="#solucao">A Solução</a>
+            <a href="#como-funciona">Como Funciona</a>
+            <a href="#depoimentos">Depoimentos</a>
+        </nav>
+        <div class="header-buttons">
+            <button class="btn-ghost" onclick="window.location.href='login.html'">Fazer Login</button>
+            <button class="btn-primary" onclick="window.location.href='cadastro.html'">Cadastrar Espaço</button>
+        </div>
+        <button class="cont_mapa" id="cont_mapa" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#solucao">A Solução</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <button class="btn-ghost" onclick="window.location.href='login.html'">Acesso Restrito</button>
+        <button class="btn-primary" onclick="window.location.href='cadastro.html'">Cadastrar Espaço</button>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="solucao">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">✓ Plataforma B2B Operacional</div>
+            <h1>Gestão inteligente e segura para o seu <span class="hero-highlight">Espaço Kids</span></h1>
+            <p>Simplifique a entrada de crianças, acompanhe a lotação do seu estabelecimento em tempo real e garanta total tranquilidade para os pais com um sistema desenhado para quem cuida.</p>
+            
+            <div class="hero-actions">
+                <button class="btn-hero-primary" onclick="window.location.href='cadastro.html'">Quero usar no meu negócio</button>
+            </div>
+            
+            <!-- Estatísticas Adaptadas -->
+            <div class="hero-stats">
+                <div class="stat">
+                    <strong>100%</strong>
+                    <span>Check-in Digital</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <strong>24/7</strong>
+                    <span>Monitoramento</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <strong>Zero</strong>
+                    <span>Riscos na Saída</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image-side">
+            <div class="hero-img-wrapper">
+                <img src="../fotos/babysafe.jpg" alt="Crianças brincando com segurança">
+                
+                <!-- Cartões flutuantes que referenciam o MVP -->
+                <div class="floating-card card-verified">
+                    <div>
+                        <strong>Monitoramento Ativo</strong>
+                        <p>18 Crianças Presentes</p>
+                    </div>
+                </div>
+                <div class="floating-card card-rating">
+                    <div>
+                        <strong>Check-in Rápido</strong>
+                        <p>Sem filas na porta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST SECTION -->
+    <section class="trust-section">
+        <div class="trust-grid">
+            <div class="trust-item">
+                <h3>Validação Rápida</h3>
+                <p>Verifique o responsável legal em segundos, sem gerar filas na porta do seu estabelecimento.</p>
+            </div>
+            <div class="trust-item">
+                <h3>Monitoramento 24h</h3>
+                <p>O operador acompanha a lotação atual do espaço kids em tempo real pelo painel.</p>
+            </div>
+            <div class="trust-item">
+                <h3>Dados Isolados</h3>
+                <p>A tabela de movimentação do seu comércio é exclusiva, garantindo privacidade total.</p>
+            </div>
+            <div class="trust-item">
+                <h3>Suporte ao Operador</h3>
+                <p>Acesso fácil a contactos de emergência e informações rápidas durante a permanência.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA SECTION -->
+    <section class="how-it-works" id="como-funciona">
+        <div class="section-header">
+            <span class="section-tag">Operação Simplificada</span>
+            <h2>Como funciona o BabySafe B2B</h2>
+            <p>Em apenas 3 passos, o seu espaço kids passa a operar com segurança máxima</p>
+        </div>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Cadastre o seu Espaço</h3>
+                    <p>Registe o seu comércio na nossa plataforma central e receba acesso imediato a um painel de gestão isolado e exclusivo.</p>
+                </div>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Realize o Check-in</h3>
+                    <p>O operador lê o CPF ou dados do responsável, e o sistema regista a entrada da criança em poucos cliques.</p>
+                </div>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Monitore em Tempo Real</h3>
+                    <p>Acompanhe o painel para verificar lotação, tempo de permanência e realize o check-out validando o tutor autorizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEPOIMENTOS SECTION -->
+    <section class="testimonials" id="depoimentos">
+        <div class="section-header">
+            <span class="section-tag">O que dizem os lojistas</span>
+            <h2>Estabelecimentos que confiam no BabySafe</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Desde que implementámos o BabySafe no nosso shopping, acabaram-se as confusões na hora da saída. O sistema é muito rápido e os pais sentem-se muito mais seguros."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">M</div>
+                    <div>
+                        <strong>Marcos S.</strong>
+                        <span>Gerente do Shopping Kids, Centro</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card testimonial-featured">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"O painel em tempo real salvou a nossa operação aos fins de semana. Consigo ver exatamente quantas crianças estão no espaço e nunca mais ultrapassámos a capacidade máxima."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">R</div>
+                    <div>
+                        <strong>Renata L.</strong>
+                        <span>Sócia do Espaço Brincar, Saquarema</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"O processo de check-in é incrivelmente intuitivo. Treinei a minha equipa de rececionistas em menos de 10 minutos. Recomendo para qualquer comércio com área infantil."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">P</div>
+                    <div>
+                        <strong>Paulo C.</strong>
+                        <span>Dono da Brinquedoteca Alegria</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA SECTION -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Pronto para proteger o seu Espaço Kids?</h2>
+            <p>Cadastre o seu estabelecimento hoje e ofereça a tranquilidade que as famílias exigem.</p>
+            <div class="cta-buttons">
+                <button class="btn-hero-primary" onclick="window.location.href='cadastro.html'">Começar agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo" style="font-family: 'Pacifico', cursive; color: white;">BabySafe B2B</a>
+                <p>A plataforma SaaS para o gerenciamento inteligente, seguro e rápido de espaços recreativos infantis.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Facebook">👍</a>
+                    <a href="#" aria-label="WhatsApp">💬</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Produto</h4>
+                <a href="#como-funciona">Check-in Ágil</a>
+                <a href="#como-funciona">Monitoramento</a>
+                <a href="#como-funciona">Segurança de Dados</a>
+            </div>
+            <div class="footer-col">
+                <h4>Suporte</h4>
+                <a href="#">Central de Ajuda</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contato Comercial</h4>
+                <p>Universidade de Vassouras</p>
+                <p>Saquarema, RJ</p>
+                <a href="#">contato@babysafe.com.br</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 BabySafe. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script Menu Mobile -->
+    <script>
+        document.getElementById('cont_mapa').addEventListener('click', function() {
+            var menu = document.getElementById('mobileMenu');
+            if(menu.classList.contains('open')) {
+                menu.classList.remove('open');
+            } else {
+                menu.classList.add('open');
+            }
+        });
+    </script>
+</body>
+</html>
